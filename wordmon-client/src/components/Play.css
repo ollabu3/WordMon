@@ -1,0 +1,106 @@
+.playHeader {
+  margin: 35px;
+  text-align: center;
+}
+
+.playInfo {
+  background-color: grey;
+  color: #ECDB54;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 10px;
+  height: 150px;
+  border-radius: 7px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.scoreBoard {
+  background-color: white;
+  color: grey;
+  border-radius: 3px;
+  height: 30px;
+  padding-left: 25px;
+  padding-top: 5px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 300px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#timeLeft {
+  float: left;
+}
+
+#saySomething {
+  float: left;
+}
+
+#currentScore {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#highestScore {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.innerBox {
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+#newChain {
+  border-radius: 5px;
+  height: 25px;
+}
+
+.wordChain {
+  margin-left: 35px;
+  margin-right: 35px;
+  height: 400px;
+  border-radius: 7px;
+  border: 2px #f0f0f0 solid;
+  padding: 10px;
+}
+
+.chain {
+  color: white;
+  background-color: #e0e2e4;
+  border: transparent;
+  border-radius: 3px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 7px;
+  margin-top: 0;
+  padding: 5px;
+}
+
+.newHighestScore {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 7px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+#progress {
+  float: left;
+}
+
+.lastWord {
+  color: grey /*#BCBCBE*/;
+  background-color: #ECDB54;
+  border: transparent;
+  border-radius: 3px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 7px;
+  margin-top: 0;
+  padding: 5px;
+}

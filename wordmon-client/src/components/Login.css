@@ -1,0 +1,13 @@
+#main {
+  margin: 100px 0 200px 0;
+  font-size: 85px;
+}
+
+.loginPage {
+  margin: 40px 140px 0 140px;
+  background-color: grey;
+  border: solid 2px black;
+  border-radius: 7px;
+  padding-bottom: 50px;
+  /* height: 700px;   */
+}
